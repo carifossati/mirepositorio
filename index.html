@@ -20,13 +20,13 @@
 </head>
 
 <body>
-    <div class=imagen ><img src="img/login.png" width = "auto" height = "200px" /></div> 
+    <div id="img"><img src="img/login.png" class="img-login" width = "auto" height = "200px" vertical-align = top ALT="Logo de E-mercado"></div> 
     <br>
     <br>
     <div class="login">
         <h1>Iniciar sesión</h1>
         <div>
-            <input type="text" id="user" name="user" placeholder="Usuario" required="required" /><br>
+            <input type="text" id="user" name="user" placeholder="Usuario" required="required" />
             <input type="password" id="pass" name="pass" placeholder="Contraseña" required="required" /><br>
             <span id="msj"></span><br>
             <button id="login" class="btn btn-primary btn-block btn-large" onclick="verificar()">Ingresar</button>
